@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sourcemonitor_commands>
+  <write_log>false</write_log>
+  <command>
+    <command>
+      <parse_utf8_files>true</parse_utf8_files>
+      <project_file>sm_project-Java.smproj</project_file>
+      <project_language>Java</project_language>
+      <source_files_from_xml>
+        <xml_search_file>
+          <xml_file_path>sm-includes.xml</xml_file_path>
+          <xpath_location>//file</xpath_location>
+        </xml_search_file>
+      </source_files_from_xml>
+      <checkpoint_name>1.0</checkpoint_name>
+      <export>
+        <export_file>sm-summary-results.xml</export_file>
+        <export_type>1</export_type>
+        <export_option>2</export_option>
+      </export>
+    </command>
+    <command>
+      <parse_utf8_files>true</parse_utf8_files>
+      <project_file>sm_project-Java.smproj</project_file>
+      <checkpoint_name>1.0</checkpoint_name>
+      <export>
+        <export_file>sm-details-results.xml</export_file>
+        <export_type>2</export_type>
+        <export_option>3</export_option>
+      </export>
+    </command>
+  </command>
+</sourcemonitor_commands>
